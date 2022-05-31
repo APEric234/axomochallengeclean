@@ -1,0 +1,79 @@
+h3 {
+    margin: 40px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+body {
+    font-size: calc(0.75em + 1vw);
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.hello {
+    max-width: 60vw;
+    font-size: calc(0.75em + 1vw);
+}
+a {
+    display: block;
+    text-align: center;
+    color: #ffffff;
+    white-space: normal;
+    font-size: calc(0.75em + 1vw);
+}
+
+.side {
+    width: 20%;
+    height: 100vw;
+    float: left;
+}
+
+    .side .menu {
+        border: 2PX solid #4cff00;
+        overflow: hidden;
+        vertical-align: middle;
+    }
+
+    .side div {
+        height: 7vw;
+        width: 100%;
+        min-height: 50px;
+        float: inherit;
+        background-color: #0096FF;
+        min-width: 76px;
+        transition: all .2s ease-in-out;
+    }
+
+        .side div:hover .list {
+            max-height: inherit;
+            height: 20vw;
+            opacity: 1;
+            font-size:calc(0.2em + 1vw);
+        }
+        .side div:hover {
+            height:10vw;
+        }
+
+.list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 300ms ease;
+}
+
+    .list li {
+        text-align:left;
+        color: #ffffff;
+    }
+
+.hello {
+    float: right;
+}

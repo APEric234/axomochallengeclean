@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.26-alpha">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>92f9d49c-90e8-4b98-9145-50167c574b94</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupCommand>npm run serve</StartupCommand>
+    <JavaScriptTestRoot>.\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="src\components\SideBar.vue" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="src\components\dash.vue" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\assets\images\" />
+  </ItemGroup>
+</Project>
